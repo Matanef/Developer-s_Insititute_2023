@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Register</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+
+        <script src="" async defer></script>
+
+        <form method="POST"> <!-- GET you see information in url, POST you don't -->
+            First name: <input type="text" name="firstname" required placeholder="Enter First name"><br>
+            Last name: <input type="text" name="lastname" required placeholder="Enter Last name"><br>
+            Email: <input type="email" name="email" required placeholder="somenone@blahblah.com" oninvalid="this.setCustomValidity('Please enter a valid email')" oninput="this.setCustomValidity('')"/><br>
+            Password: <input type="password" name="password" minlength="5"><br>
+            Birthday: <input type="date" name="birthday"><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+            Pets: <br>
+            <input type="checkbox" name="cat"> Cet<br>
+            <input type="checkbox" name="dog"> Dog<br>
+            Cars: <br>
+            <select name="cars"> <!-- select tag = Dropdown -->
+                <option required placeholder="Enter Car">Enter Car</option>
+                <option value="volvo"> Volvo</option>
+                <option selected value="audi"> Audi</option> <!-- selected attr =dropdown start on that option -->
+                <option value="third option">Option 3</option>
+            </select><br>
+            <input type="submit" value="Register!">
+            <input type="reset">
+        </form>
+    </body>
+</html>
+
