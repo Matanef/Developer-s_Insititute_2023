@@ -1,0 +1,15 @@
+Create a new Repository:
+echo "# Repository_Name" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin Repository_Url
+git push -u origin main
+
+
+Push Changes:
+git add .
+git status
+git commit -m "commit description"
+git push -u origin main
