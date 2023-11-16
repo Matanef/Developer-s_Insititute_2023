@@ -10,6 +10,23 @@
 7. git status
 8. git add .
 9.GitHub is a web company that provides hosting 
-and additional social and collaboration features for git, 
-the version control software.
+    and additional social and collaboration features for git, 
+    the version control software.
 
+10. {
+
+    1.
+    It's a hidden folder managed by git via the 
+    git commands.
+    2.
+    We don't typically need (or should have) 
+    to modify its contents directly.
+    3.
+    It contains the entire history and all details 
+    of the files in the repository.
+    4.
+    There is only one of these in each git repository, 
+    at the root (top most) directory for that repository.
+    }
+
+11. Where files are grouped together before committing.
