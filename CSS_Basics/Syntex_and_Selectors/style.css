@@ -1,0 +1,83 @@
+* {
+    color: blue;
+}
+
+
+
+
+/* Descendant Selector
+
+The descendant selector matches all elements that are descendants of a specified element.
+
+The selector below will find all of the p tags inside of a footer tag (read the selectors from right to left). */
+footer p {
+    background-color:red;
+}
+
+/* Adjacent Selector
+
+The adjacent selector finds all elements that are directly adjacent to some other specified element. The selector below will find all the h4 tags that are directly adjacent to an h1 tag. */
+
+h1+h4 {
+    background-color:rgb(0, 255, 26);
+}
+
+
+/* Direct child selector
+
+This is commonly confused with the descendant selector. The direct child selector matches all elements that are direct children - not just descendants - of a specified element. The selector below will find all lis which are direct children of a ul. */
+
+ul > li {
+    background-color:rgb(0, 208, 255);
+}
+
+/* Attribute Selector
+
+The attribute selector finds elements based on the value of some attribute. The selector below will find all a tags whose href attribute is set to “#”. */
+
+a[href="#"] {
+    background-color:rgb(204, 255, 0);
+}
+
+/* Pseudo Class
+
+A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s).
+
+For example, it can be used to:
+
+    Style an element when a user mouses over it
+    Style visited and unvisited links differently
+    Style an element when it gets focus
+
+Syntax
+CSS - style.css */
+
+/* selector:pseudo-class {
+  property: value;
+} */
+
+/* First & Last Child
+
+The :first-child and :last-child CSS pseudo-class find all elements which are the first (or last, respectively) children of their parents. The selector below will find all the li‘s which are the first children of their parents. */
+
+li:last-child {
+    background-color:rgb(166, 178, 160);
+}
+
+/* n-th child
+
+This is a sort of generalization of the selectors above. nth-child CSS pseudo-class will find all elements which are the nth children of their parents, for some specified value of n. The selector below will find all the li‘s which are the second children of their parents. */
+
+li:nth-child(2) {
+    background-color: teal;
+}
+
+button {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: red;
+}
+
+button:hover {
+  background-color: rgb(233, 161, 185);
+}
