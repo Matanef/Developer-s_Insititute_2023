@@ -24,7 +24,7 @@ li {
     list-style: lower-greek;
     display: inline-block;
 }
-.webtext:last-child {
+.webtext:last-childgr {
     border: 5px dashed green;
 }
 .active{
@@ -37,5 +37,6 @@ li {
 }
 #div2{
     background-color: rgba(255,0,0, 0.5);
+    borde
 
 }
