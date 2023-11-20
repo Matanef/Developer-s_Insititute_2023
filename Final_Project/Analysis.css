@@ -1,0 +1,123 @@
+body {
+/*	margin-left: 14px;*/
+background-size: cover;
+background-size: 100%;
+background-image: url(itl.cat_leaf-wallpaper-hd_413912.png);
+background-repeat: repeat-y;
+	/*background-attachment: fixed;
+	background-position: left;
+	background-color: yellowgreen;
+
+/*	background-position: center;*/
+
+/*background-position: 0px -175px;*/
+}
+
+.topnav {
+	background-image: url(Bar_il_1140xN.1433734475_h819.png);
+	overflow: hidden;
+	margin-top: 9px;
+}
+.topnav a {
+	float: left;
+	color: white;
+	background-color: grey;
+	opacity: 0.8;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: all 1s;
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+	transform: scale(1.1);
+	animation: ease;
+}
+
+.topnav a.active {
+	background-color: #151515;
+	color: white;
+}
+span.a {
+	font-family: Arial;
+	font-weight: 1200;
+}
+
+
+section {
+	margin-left: 125px;
+	background-size: cover;
+	padding-right: 45px;
+/*	background-size: ;*/
+background-image: url(15086566-passage-à-travers-les-arches-magnifiques-jardins-multiples-et-des-murs-décorés-de-fleurs-roses-roses.webp);
+background-repeat: repeat-y;
+background-attachment: fixed;
+background-position: center;
+width: 1150px;
+opacity: 0.7;
+/*	display: flex;*/
+font-size: 45px;
+/*	align-content: left;*/
+/*	flex-wrap: wrap;*/
+}
+
+
+.blocktext {
+	margin-left: 220px;
+	font-size: 35px;
+}
+.art {
+	font-size: 67px;
+}
+h4 {
+	width: 450px;
+	color: royalblue;
+
+}
+
+.stick ,
+.category,
+.title,
+.footer {
+	margin-left: 72px;
+	position: sticky;
+	height: 50px;
+}
+
+
+.category {
+	margin-left: 24px;
+	border-style: solid;
+	background-color: black;
+	font-size: 47px;
+	color: royalblue;
+	position: sticky;
+	top: 12px;
+}
+
+.title {
+	margin-top: 112px;
+	border-style: solid;
+	background-color: sandybrown;
+	font-size: 56px;
+	color: royalblue;
+
+}
+.stick {
+/*	margin-left: 72px;*/
+position: sticky;
+top: 52px;
+}
+
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+}

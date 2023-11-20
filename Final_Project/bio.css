@@ -1,0 +1,174 @@
+body {
+
+/*	display: flex;*/
+margin-left: 14px;
+background-image: url(622d48aa60d0a.png);
+background-repeat: repeat-y;
+/*background-size: contain;*/
+background-position: left;
+/*background-size: 920px 880px;*/
+}
+/*.background {
+	background-image: url(12377912_10153817580073185_6342066330017462016_o.jpg);
+	background-repeat: repeat;
+
+}*/
+.topnav {
+	background-image: url(Bar_il_1140xN.1433734475_h819.png);
+	overflow: hidden;
+	margin-top: 9px;
+}
+.topnav a {
+	float: left;
+	color: white;
+	background-color: grey;
+	opacity: 0.8;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: all 1s;
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+	transform: scale(1.1);
+	animation: ease;
+}
+
+.topnav a.active {
+	background-color: #151515;
+	color: white;
+}
+span.a {
+	font-family: Arial;
+	font-weight: 1200;
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: left;
+}
+
+section {
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	color: black;
+	font-size: 27px;
+	font-weight: bold;
+}
+
+img {
+/*	align-content: flex-end;
+	margin: auto;
+	margin-top: 80px;
+	display: block;*/
+	transition: all 2s;
+/*	flex-direction: row;
+	justify-content: right;*/
+	height: 350px;
+	width: 520px;
+}
+
+img:hover {
+	transform: scale(1.120);
+	animation: ease;
+}
+div.content {
+	display: flex;
+	list-style-type: none;
+	background-color: lightgrey;
+	text-decoration-line: underline;
+	align-items: center;
+	border-style: solid;
+	text-align: left;
+	width: 250px;
+	padding-right: 45px;
+	margin-left: 820px;
+	align-items: left;
+	font-weight: 400;
+	opacity: 0.8;
+	position: sticky;
+	top: 32px;
+	background-color: yellow;
+	padding: 50px;
+	font-size: 20px;
+}
+ul {
+
+	list-style-type: none;
+}
+.catgory,
+.title,
+.footer {
+	margin-left: 72px;
+	position: sticky;
+	height: 50px;
+	font-size: 47px;
+}
+
+.category {
+	font-size: 87px;
+	font-family: fantasy;
+	color: lightgray;
+	top: 0;
+}
+.title {
+	font-size: 87px;
+	font-family: fantasy;
+	color: lightgray;
+	top: 0;
+}
+
+
+
+.container2{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+
+}
+.page { 
+/*	background-color: sandybrown;*/
+/*background-blend-mode: screen;*/
+background-image: url(fixed-open-old-blank-book-8534349.jpg);
+background-size: cover;
+width: 330px;
+height: 330px;
+font-size: 28px;
+margin-left: 125px;
+padding-top: 120px;
+padding-bottom: 120px;
+padding-right: 78px;
+padding-left: 78px;
+}
+
+
+
+
+div.container {
+	margin: auto;
+	margin-top: 80px;
+	display: flex;
+/*	align-content: flex-end;*/
+/*	transition: all 2s;*/
+flex-direction: row-reverse;
+/*	justify-content: space-around;*/
+/*	height: 350px;
+	width: 520px;*/
+	position: sticky;
+	top: 32px;
+	right: 64px;
+/*	justify-content: center;*/
+}
+
+.footer {
+	color: white;
+	bottom: 100px;
+	z-index: -1;
+}
+
+
