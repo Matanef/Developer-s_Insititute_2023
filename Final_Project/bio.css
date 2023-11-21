@@ -79,17 +79,15 @@ img:hover {
 }
 div.content {
 	display: flex;
-	
-	background-color: lightgrey;
 	text-decoration-line: underline;
-	text-align: right;
-	width: 250px;
+	text-align: left;
+	width: 420px;
 	padding-right: 45px;
 	margin-left: 1200px;
 	font-weight: 400;
 	opacity: 0.8;
 	position: sticky;
-	top: 32px;
+	top: 220px;
 	background-color: rgb(255, 255, 255);
 	padding: 125px;
 	font-size: 20px;
@@ -105,7 +103,7 @@ li {
 
 }
 
-.title,
+
 .footer {
 	margin-left: 72px;
 	position: sticky;
@@ -117,13 +115,17 @@ li {
 	font-size: 87px;
 	font-family: fantasy;
 	color: lightgray;
-	top: 0;
+	
 }
 .title {
-	font-size: 87px;
-	font-family: fantasy;
+	font-size: 42px;
+	font-family: italic;
 	color: lightgray;
 	top: 0;
+}
+
+.tolImg {
+
 }
 
 
@@ -132,7 +134,7 @@ li {
 	display: flex;
 	flex-direction: column;
 	align-content: flex-start;
-	margin-top: 120px;
+	margin-top: 330px;
 
 }
 .page { 
@@ -140,9 +142,10 @@ li {
 /*background-blend-mode: screen;*/
 background-image: url(fixed-open-old-blank-book-8534349.jpg);
 background-size: cover;
-width: 500px;
-height: 800px;
+max-width: 800px;
+/* height: 800px; */
 font-size: 28px;
+margin: 0 auto ;
 margin-left: 125px;
 padding-top: 120px;
 padding-bottom: 120px;
@@ -150,7 +153,19 @@ padding-right: 78px;
 padding-left: 78px;
 }
 
+.dynamic-image {
+	position: relative;
+    overflow: hidden;
+	opacity: 0.2;
+}
 
+.dynamic-image::after {
+    content: '';
+    display: block;
+    padding-top: 75%;
+    background: url('fixed-open-old-blank-book-8534349.jpg') center/cover no-repeat; 
+	opacity: 0.2;
+}
 
 
 
@@ -159,22 +174,20 @@ div.container {
 	margin: auto;
 	margin-top: 80px;
 	display: flex;
-/*	align-content: flex-end;*/
-/*	transition: all 2s;*/
 flex-direction: row-reverse;
-/*	justify-content: space-around;*/
-/*	height: 350px;
-	width: 520px;*/
 	position: sticky;
 	top: 32px;
 	right: 64px;
-/*	justify-content: center;*/
 }
 
 .footer {
 	color: rgb(254, 211, 211);
 	bottom: 50px;
 	z-index: -1;
+}
+
+img {
+	
 }
 
 
