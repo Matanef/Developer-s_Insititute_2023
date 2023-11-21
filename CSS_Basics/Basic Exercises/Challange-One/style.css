@@ -1,0 +1,25 @@
+body {
+	background: rgb(85, 204, 255);
+}
+
+.capsent {
+	text-align: center;
+}
+
+ul {
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+
+}
+
+li::first-letter {
+	font-size: 22px;
+	font-weight: 50;
+	font-family: fantasy;
+}
+
+/*li {
+	text-align: center;
+}*/
+
