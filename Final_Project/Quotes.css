@@ -68,10 +68,13 @@ p::after {
     bottom: 0;
 }
 .card {
+    background-image: url('itl.cat_leaf-wallpaper-hd_413912.png');
+    background-size: cover;
+    color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 330px;
-    height: 240px;
+    height: auto  ;
     /* margin: auto; */
     border-radius: 15px;
     text-align: center;
@@ -116,32 +119,33 @@ p::after {
   /*  background-color: rgba(255, 255, 255, 0.8);*/
   /*  border: 1px solid rgba(0, 0, 0, 0.8);*/
   font-size: 30px;
-  font-family: Bankgothic;
+  /* font-family: Bankgothic; */
   text-align: center;
   /*  width: 85%;*/
   /*  margin: 50px;*/
   }
 
-    /* .card_1 {
-    background-image: url();
+/* .card_1 {
+    background-image: url('itl.cat_leaf-wallpaper-hd_413912.png');
     background-size: cover;
    height: auto  ;
   font-family: Bankgothic;
+  color: white;
   }
   .card_2 {
-    background-image: url();
+    background-image: url('itl.cat_leaf-wallpaper-hd_413912.png');
     background-size: cover;
   
    height: auto  ;
   font-family: Bankgothic;
-  }
+  } */
   .card_3 {
-    background-image: url();
+    background-image: url(lucie-hosova-TsXUChk1cKc-unsplash.jpg);
     background-size: cover;
-    background-position: -51px  ;
+    /* background-position: -51px  ; */
    height: auto  ;
   font-family: Bankgothic;
-  } */
+  }
 
   .card_4 {
     font-size: 24px ;
