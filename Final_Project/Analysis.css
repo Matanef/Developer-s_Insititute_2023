@@ -14,7 +14,7 @@ background-repeat: repeat-y;
 }
 
 .topnav {
-	background-image: url(Bar_il_1140xN.1433734475_h819.png);
+	/* background-image: url(Bar_il_1140xN.1433734475_h819.png); */
 	overflow: hidden;
 	margin-top: 9px;
 }
@@ -45,6 +45,9 @@ span.a {
 	font-weight: 1200;
 }
 
+article {
+	margin-bottom: 550px;
+}
 div.content {
 	display: flex;
 	text-decoration-line: underline;
@@ -68,7 +71,7 @@ li {
 	
 }
 section {
-	margin-left: 0 45px 100px 125px;
+	margin: 0 45px 100px 65px;
 	background-size: cover;
 	padding-right: 45px;
 /*	background-size: ;*/
