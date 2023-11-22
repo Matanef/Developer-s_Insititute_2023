@@ -57,13 +57,11 @@ section {
 }
 
 img {
-	align-content: flex-end;
-	margin: auto;
-	/* margin-top: 80px; */
-	display: block;
 	
-/*	flex-direction: row;
-	justify-content: right;*/
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	border-color: black;
 	height: 350px;
 	width: 520px;
 }
@@ -74,11 +72,15 @@ img:hover {
 	transition: all 2s;
 }
 
-.tolImg {
+/* .tolImg {
 	border-radius: 50%;
-	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-left: 150px;
+	margin-top: -250px;
 	
-}
+} */
 
 div.content {
 	display: flex;
@@ -86,13 +88,13 @@ div.content {
 	text-align: left;
 	width: 420px;
 	padding-right: 45px;
-	margin-left: 1200px;
-	font-weight: 400;
+	margin-left: 1250px;
+	font-weight: 400px;
 	opacity: 0.8;
 	position: sticky;
 	top: 220px;
 	background-color: rgb(255, 255, 255);
-	padding: 125px;
+	padding: 20px;
 	font-size: 20px;
 }
 ul {

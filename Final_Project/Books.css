@@ -1,0 +1,49 @@
+.topnav {
+	background-image: url('wojciech-portnicki-klS2yWjGESU-unsplash.jpg');
+	background-position: 50%;
+	overflow: hidden;
+}
+.topnav a {
+	float: left;
+	color: white;
+	background-color: grey;
+	opacity: 0.8;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: all 1s;
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+	transform: scale(1.1);
+	animation: ease;
+}
+
+.topnav a.active {
+	background-color: #151515;
+	color: white;
+}
+
+.tolksoc-bibliography{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 354px;
+    height: auto  ;
+    padding: 13px;
+    /* margin: auto; */
+    border-radius: 15px;
+    text-align: center;
+    opacity: 0.78;
+    }
+
