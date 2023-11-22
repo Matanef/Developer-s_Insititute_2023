@@ -62,11 +62,11 @@ section {
 }
 
 img {
-/*	align-content: flex-end;
+	align-content: flex-end;
 	margin: auto;
-	margin-top: 80px;
-	display: block;*/
-	transition: all 2s;
+	/* margin-top: 80px; */
+	display: block;
+	
 /*	flex-direction: row;
 	justify-content: right;*/
 	height: 350px;
@@ -76,7 +76,15 @@ img {
 img:hover {
 	transform: scale(1.120);
 	animation: ease;
+	transition: all 2s;
 }
+
+.tolImg {
+	border-radius: 50%;
+	position: absolute;
+	
+}
+
 div.content {
 	display: flex;
 	text-decoration-line: underline;
@@ -113,7 +121,7 @@ li {
 
 .category {
 	font-size: 87px;
-	font-family: fantasy;
+	font-family: blackadder;
 	color: lightgray;
 	
 }
@@ -121,12 +129,11 @@ li {
 	font-size: 42px;
 	font-family: italic;
 	color: lightgray;
+	margin-left: 130px;
 	top: 0;
 }
 
-.tolImg {
 
-}
 
 
 
@@ -134,7 +141,7 @@ li {
 	display: flex;
 	flex-direction: column;
 	align-content: flex-start;
-	margin-top: 330px;
+	margin-top: 550px;
 
 }
 .page { 
@@ -146,7 +153,7 @@ max-width: 800px;
 /* height: 800px; */
 font-size: 28px;
 margin: 0 auto ;
-margin-left: 125px;
+margin-left: 250px;
 padding-top: 120px;
 padding-bottom: 120px;
 padding-right: 78px;
@@ -181,13 +188,15 @@ flex-direction: row-reverse;
 }
 
 .footer {
-	color: rgb(254, 211, 211);
+	color: rgb(10, 9, 9);
+	display: flex;
+	font-size: 18px;
 	bottom: 50px;
-	z-index: -1;
+	z-index: 0;
 }
 
-img {
-	
+.pfoot {
+	margin-right: 550px;
 }
 
 
