@@ -101,6 +101,7 @@ p::after {
     padding-bottom: 32px;
     padding-left: 16px;
     padding-right: 16px;
+    margin-top:12px ;
   }
  
   section {
@@ -149,7 +150,9 @@ p::after {
 
   .card_4 {
     font-size: 24px ;
+    background-position: 10% 90% ;
   }
   .card_6{
     font-size: 26px;
+    background-position: 36% 64% ;
   }
