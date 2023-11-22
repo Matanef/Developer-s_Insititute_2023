@@ -45,12 +45,7 @@ span.a {
 	font-weight: 1200;
 }
 
-.intro {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-items: left;
-}
+
 
 section {
 	display: flex;

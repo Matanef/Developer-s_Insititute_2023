@@ -68,7 +68,7 @@ li {
 	
 }
 section {
-	margin-left: 125px;
+	margin-left: 0 45px 100px 125px;
 	background-size: cover;
 	padding-right: 45px;
 /*	background-size: ;*/
@@ -96,13 +96,13 @@ h2 {
 	font-size: 42px;
 	font-family: 'Brush Script MT', sans-serif;
 	color: rgb(62, 58, 58);
-	margin-left: 130px;
+	margin-left: 100px;
 }
-h4 {
-	/* width: 450px;
-	color: royalblue; */
+/* h4 {
+	width: 450px;
+	color: royalblue;
 
-}
+} */
 
 .stick ,
 .category,
@@ -115,7 +115,7 @@ h4 {
 
 
 .category {
-	margin-left: 10px;
+	/* margin-left: 10px; */
 	border-style: solid;
 	/* background-color: black; */
 	font-size: 47px;
@@ -130,7 +130,8 @@ h4 {
 	border-style: none;
 	background-image: url(RAKSurfaceMattOffWhite300x600_A09GZSUR-OWH.M0R_1.jpg);
 	/* background-color: sandybrown; */
-	font-size: 56px;
+	font-size: 45px;
+	padding: 6px;
 	/* color: royalblue; */
 
 }

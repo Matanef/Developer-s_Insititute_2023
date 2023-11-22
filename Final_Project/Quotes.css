@@ -1,0 +1,151 @@
+body {
+
+    /*	display: flex;*/
+    margin-left: 14px;
+    /* background-image: url(622d48aa60d0a.png);
+    background-repeat: repeat-y; */
+    /*background-size: contain;*/
+    /* background-position: left; */
+    /*background-size: 920px 880px;*/
+    }
+    /*.background {
+        background-image: url(12377912_10153817580073185_6342066330017462016_o.jpg);
+        background-repeat: repeat;
+    
+    }*/
+    .topnav {
+        background-image: url('wojciech-portnicki-klS2yWjGESU-unsplash.jpg');
+        overflow: hidden;
+        margin-top: 9px;
+    }
+    .topnav a {
+        float: left;
+        color: white;
+        background-color: grey;
+        opacity: 0.8;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        transition: all 1s;
+    }
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        transform: scale(1.1);
+        animation: ease;
+    }
+    
+    .topnav a.active {
+        background-color: #151515;
+        color: white;
+    }
+    /* span.a {
+        font-family: Arial;
+        font-weight: 1200;
+    } */
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Script MT";
+    font-size: 78px;
+}
+    p {
+        position: relative;
+        quotes: "\201C" "\201D"; /* Unicode characters for opening and closing double quotation marks */
+    }
+
+    p::before,
+p::after {
+    content: open-quote; /* Uses the opening quotation mark */
+    position: absolute;
+    font-size: 35px; /* Adjust the font size as needed */
+}
+
+p::after {
+    content: close-quote; /* Uses the closing quotation mark */
+    right: 0;
+    bottom: 0;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 330px;
+    height: 240px;
+    /* margin: auto; */
+    border-radius: 15px;
+    text-align: center;
+    opacity: 0.8;
+  
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  a img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  /* .allcards {
+    margin-top: 47px;
+    margin-bottom: 24px;
+   display: grid;
+    grid-template-rows:32% 32% 32%;
+  
+  } */
+  .container {
+    padding-top: 24px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+ 
+  section {
+    padding: 80px;
+    margin-left: 25px;
+  }
+
+  .grid_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* display: grid;
+    grid-template-columns: 25% 25% 25% 25%; */
+    /* grid-column-gap: 10px; */
+    background-color: none;
+  /*  background-color: rgba(255, 255, 255, 0.8);*/
+  /*  border: 1px solid rgba(0, 0, 0, 0.8);*/
+  font-size: 30px;
+  font-family: Bankgothic;
+  text-align: center;
+  /*  width: 85%;*/
+  /*  margin: 50px;*/
+  }
+
+    /* .card_1 {
+    background-image: url();
+    background-size: cover;
+   height: auto  ;
+  font-family: Bankgothic;
+  }
+  .card_2 {
+    background-image: url();
+    background-size: cover;
+  
+   height: auto  ;
+  font-family: Bankgothic;
+  }
+  .card_3 {
+    background-image: url();
+    background-size: cover;
+    background-position: -51px  ;
+   height: auto  ;
+  font-family: Bankgothic;
+  } */
+
+  .card_4 {
+    font-size: 24px ;
+  }
+  .card_6{
+    font-size: 26px;
+  }
