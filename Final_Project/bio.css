@@ -108,7 +108,6 @@ li {
 	margin-top: 2px;
 	margin-bottom: 2px;
 	
-
 }
 
 
@@ -121,13 +120,13 @@ li {
 
 .category {
 	font-size: 87px;
-	font-family: blackadder;
+	font-family: 'Brush Script MT', sans-serif;
 	color: lightgray;
 	
 }
 .title {
 	font-size: 42px;
-	font-family: italic;
+	font-family: 'Brush Script MT', sans-serif;
 	color: lightgray;
 	margin-left: 130px;
 	top: 0;
