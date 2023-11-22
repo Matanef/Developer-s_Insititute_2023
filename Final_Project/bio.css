@@ -15,7 +15,7 @@ background-repeat: repeat-y; */
 }*/
 .topnav {
 	background-image: url('wojciech-portnicki-klS2yWjGESU-unsplash.jpg');
-	overflow: hidden;
+	/* overflow: hidden; */
 	margin-top: 9px;
 }
 .topnav a {
@@ -62,6 +62,7 @@ img {
 	display: flex;
 	justify-content: center;
 	border-color: black;
+	border-radius: 25%;
 	height: 350px;
 	width: 520px;
 }
@@ -143,6 +144,7 @@ li {
 .page { 
 /*	background-color: sandybrown;*/
 /*background-blend-mode: screen;*/
+border-radius: 12px;
 background-image: url(fixed-open-old-blank-book-8534349.jpg);
 background-size: cover;
 max-width: 800px;
