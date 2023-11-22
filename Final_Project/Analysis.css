@@ -71,7 +71,7 @@ li {
 	
 }
 section {
-	margin: 0 45px 100px 65px;
+	/* margin: 0 45px 100px 65px; */
 	background-size: cover;
 	padding-right: 45px;
 /*	background-size: ;*/
@@ -96,7 +96,10 @@ font-size: 45px;
 	font-size: 24px;
 }
 h2 {
-	font-size: 42px;
+display: flex;
+flex-direction: column;
+align-content: center;
+	font-size: 56px;
 	font-family: 'Brush Script MT', sans-serif;
 	color: rgb(62, 58, 58);
 	margin-left: 100px;

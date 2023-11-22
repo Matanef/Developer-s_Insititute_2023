@@ -57,7 +57,9 @@ h1 {
 	font-family: Blackadder ITC regular;
 	font-size: 47px;
 }
-
+.jrrt{
+	border-radius: 150px;
+}
 .p1 {
 	color: rgb(114, 68, 27);
 	opacity: 0.8;

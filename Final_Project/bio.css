@@ -1,7 +1,12 @@
 body {
+	background-size: cover;
+	background-size: 100%;
+	background-image: url('RAKSurfaceMattOffWhite300x600_A09GZSUR-OWH.M0R_1.jpg');
+	background-repeat: repeat-y;
+	margin-left: 14px;
 
 /*	display: flex;*/
-margin-left: 14px;
+
 /* background-image: url(622d48aa60d0a.png);
 background-repeat: repeat-y; */
 /*background-size: contain;*/
@@ -14,9 +19,10 @@ background-repeat: repeat-y; */
 
 }*/
 .topnav {
-	background-image: url('wojciech-portnicki-klS2yWjGESU-unsplash.jpg');
-	/* overflow: hidden; */
-	margin-top: 9px;
+	background-position: 50%;
+	/* background-image: url('wojciech-portnicki-klS2yWjGESU-unsplash.jpg'); */
+	overflow: hidden;
+	/* margin-top: 9px; */
 }
 .topnav a {
 	float: left;
@@ -94,7 +100,7 @@ div.content {
 	opacity: 0.8;
 	position: sticky;
 	top: 220px;
-	background-color: rgb(255, 255, 255);
+	/* background-color: rgb(255, 255, 255); */
 	padding: 20px;
 	font-size: 20px;
 }

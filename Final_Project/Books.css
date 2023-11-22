@@ -1,3 +1,9 @@
+body {
+	background-size: cover;
+	background-size: 100%;
+	background-image: url('RAKSurfaceMattOffWhite300x600_A09GZSUR-OWH.M0R_1.jpg');
+	background-repeat: repeat-y;
+}
 .topnav {
 	/* background-image: url('wojciech-portnicki-klS2yWjGESU-unsplash.jpg'); */
 	background-position: 50%;
@@ -32,10 +38,12 @@
     justify-content: center;
 }
 
-.books {
+.books:nth-child(odd) {
+	background-image: url('52980.large.jpg');
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+	font-weight: bolder;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 354px;
@@ -47,3 +55,33 @@
     opacity: 0.78;
     }
 
+	.books:nth-child(even) {
+		background-image: url('54881180-hojas-verdes-de-fondo.webp');
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		font-weight: bolder;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		transition: 0.3s;
+		width: 354px;
+		height: auto  ;
+		padding: 13px;
+		/* margin: auto; */
+		border-radius: 15px;
+		text-align: center;
+		opacity: 0.78;
+		}
+
+.firstExp {
+	margin: 220px auto 150px auto;
+	/* display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-items: center; */
+	font-family: 'Book Antiqua', Times, serif;
+	font-size: 40px;
+	font-weight: bolder;
+	width: 750px;
+	/* border-style: solid;
+	border-color: #151515; */
+}
