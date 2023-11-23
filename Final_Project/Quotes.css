@@ -52,7 +52,7 @@ h2{
 }
     p {
         position: relative;
-        quotes: "\201C" "\201D"; /* Unicode characters for opening and closing double quotation marks */
+        quotes: "\201C" "\201D"; 
     }
 
     p::before,
@@ -71,7 +71,7 @@ p::after {
     background-image: url('itl.cat_leaf-wallpaper-hd_413912.png');
     background-size: cover;
     color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.802);
     transition: 0.3s;
     width: 330px;
     height: auto  ;
@@ -109,22 +109,21 @@ p::after {
     margin-left: 25px;
   }
 
-  .grid_item {
+  /* .grid_item {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* display: grid;
-    grid-template-columns: 25% 25% 25% 25%; */
-    /* grid-column-gap: 10px; */
-    background-color: none;
-  /*  background-color: rgba(255, 255, 255, 0.8);*/
-  /*  border: 1px solid rgba(0, 0, 0, 0.8);*/
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap: 10px;
+   background-color: rgba(255, 255, 255, 0.8);
+   border: 1px solid rgba(0, 0, 0, 0.8);
   font-size: 30px;
-  /* font-family: Bankgothic; */
+  font-family: Bankgothic;
   text-align: center;
-  /*  width: 85%;*/
-  /*  margin: 50px;*/
-  }
+   width: 85%;
+   margin: 50px;
+  } */
 
 /* .card_1 {
     background-image: url('itl.cat_leaf-wallpaper-hd_413912.png');

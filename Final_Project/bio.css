@@ -125,13 +125,13 @@ li {
 .category {
 	font-size: 87px;
 	font-family: 'Brush Script MT', sans-serif;
-	color: lightgray;
+	color: rgb(98, 98, 98);
 	
 }
 .title {
 	font-size: 42px;
 	font-family: 'Brush Script MT', sans-serif;
-	color: lightgray;
+	color: rgb(136, 136, 136);
 	margin-left: 130px;
 	top: 0;
 }
